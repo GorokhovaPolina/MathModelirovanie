@@ -1,0 +1,6 @@
+Построение модели для оценки стоимости недвижимости
+Необходимо построить модель для оценки стоимости на недвижимость.
+
+Описание датасета доступно по ссылке: https://www.kaggle.com/anmolkumar/house-price-prediction-challenge/tasks?taskId=2304
+
+Запись консультации доступна по ссылке: https://disk.yandex.ru/i/rw0aF3PVVR2dag
