@@ -20,7 +20,7 @@ preprocessor = ColumnTransformer([
     ("cat", OneHotEncoder(handle_unknown="ignore"), cat_features)
 ])
 
-kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
+kmeans = KMeans(n_clusters=2, random_state=42, n_init=10)
 pipeline = make_pipeline(preprocessor, kmeans)
 pipeline.fit(df)
 labels = pipeline.named_steps["kmeans"].labels_
